@@ -1,0 +1,7 @@
+W ramach ćwiczenia wykonałem przewód sieciowy UTP kategorii 5e zakończony zgodnie ze standardem T568A. Kabel wykonałem jako kabel prosty, czyli z takim samym układem przewodów po obu stronach złącza RJ-45. Podczas wykonywania kabla nie napotkałem większych trudności.
+
+Z przygotowanego odcinka kabla usunąłem izolację zewnętrzną, a następnie rozkręciłem skręcone pary przewodów. Przewody ułożyłem w odpowiedniej kolejności zgodnej ze standardem T568A, po czym przyciąłem je do równej długości i umieściłem w złączu RJ-45. Po sprawdzeniu poprawności ułożenia przewodów złącze zostało zaciśnięte przy użyciu zaciskarki. Te same czynności wykonałem na drugim końcu kabla, zachowując ten sam standard zakończenia.
+
+Gotowy kabel sprawdziłem za pomocą elektronicznego testera kabli sieciowych. Tester nie wykazał żadnych błędów – wszystkie przewody zostały połączone poprawnie. Nie stwierdziłem przerw, zwarć ani zamienionych żył. Kabel działał prawidłowo i umożliwiał poprawną transmisję danych w sieci Ethernet.
+
+Na podstawie przeprowadzonego testu stwierdzam, że kabel został wykonany poprawnie i spełnia wymagania standardu T568A.
