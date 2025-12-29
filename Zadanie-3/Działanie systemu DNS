@@ -1,8 +1,8 @@
 Celem ćwiczenia było sprawdzenie działania systemu DNS oraz lokalnej pamięci podręcznej DNS.
 
 Uruchomiłem Wiersz Poleceń i wykonałem polecenie ipconfig /displaydns, które wyświetliło aktualną zawartość pamięci podręcznej DNS.
-Następnie w przeglądarce internetowej odwiedziłem stronę https://www.wp.pl, której wcześniej nie odwiedzałem.
-Po ponownym wykonaniu polecenia ipconfig /displaydns zauważyłem pojawienie się wpisu dotyczącego domeny www.wp.pl, co potwierdziło zapis adresu w pamięci podręcznej DNS.
+Następnie w przeglądarce internetowej odwiedziłem stronę https://www.interia.pl, której wcześniej nie odwiedzałem.
+Po ponownym wykonaniu polecenia ipconfig /displaydns zauważyłem pojawienie się wpisu dotyczącego domeny www.interia.pl, co potwierdziło zapis adresu w pamięci podręcznej DNS.
 
 Odpowiedzi na pytania:
 1. Czym jest pamięć podręczna DNS?
