@@ -35,7 +35,6 @@ g. Kliknij następny kolorowy kwadrat w kolumnie Info na liście Event List. Tyl
 h. Przejdź do następnego pola HTTP Info wewnątrz listy Event List i kliknij pole kolorowego kwadratu. Okno to zawiera zarówno warstwy In Layers i Out Layers. Zwróć uwagę na kierunek strzałki bezpośrednio pod kolumną In Layers; jest skierowana ku górze, wskazując kierunek, w którym informacja podróżuje. Przejrzyj te warstwy sporządzając notatki z przeglądanych pozycji. Na szczycie kolumny strzałka wskazuje w prawo. Oznacza to, że serwer wysyła właśnie informacje z powrotem do klienta. Porównując informacje wyświetlane w kolumnie In Layers z tymi w kolumnie Out Layers, jakie są między nimi główne różnice? 
 - In Layers pokazuje odbiór danych przez serwer, a Out Layers ich wysyłanie do klienta. Adresy IP i porty są odwrócone, ponieważ zmienia się kierunek przesyłania danych.
 
-
 i. Kliknij zakładkę Outbound PDU Details. Przewiń w dół do sekcji HTTP. Jaka jest pierwsza linia wyświetlana w wiadomości HTTP?
 - HTTP Data:Connection: close
 
