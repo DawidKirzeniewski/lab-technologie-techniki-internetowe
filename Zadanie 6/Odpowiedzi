@@ -1,0 +1,9 @@
+Odpowiedzi na pytania:
+1. Gdzie znajdują się parametry w metodzie GET?
+Parametry w metodzie GET znajdują się w adresie URL po znaku zapytania (?) i są oddzielone znakiem &.
+
+2. Czy są one szyfrowane?
+Nie, parametry metody GET nie są szyfrowane. Są widoczne w pasku adresu przeglądarki oraz w historii przeglądania. W przypadku HTTPS dane są przesyłane w zaszyfrowanym połączeniu, ale sam adres URL pozostaje czytelny dla użytkownika.
+
+3. Jaka jest różnica między GET a POST w miejscu przesyłania danych?
+W metodzie GET dane przesyłane są w adresie URL, natomiast w metodzie POST dane znajdują się w treści żądania (body), dzięki czemu nie są widoczne w pasku adresu.
