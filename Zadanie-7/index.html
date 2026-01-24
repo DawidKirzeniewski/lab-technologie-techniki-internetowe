@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cookie&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+		<title>Strona przykładowa</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<div class="navigation">
+					<div class="logo">
+						<a href="#">DK</a>
+					</div>
+
+					<div class="nav-menu">
+						<ul>
+							<li>
+								<a href="#">Strona główna<span></span></a>
+							</li>
+							<li>
+								<a href="galeria.html">Galeria<span></span></a>
+							</li>
+							<li>
+								<a href="kontakt.html">Kontakt<span></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+
+			<div class="hero-img">
+				<div class="hero-text">
+					<h1>
+						Moja nie pierwsza strona internetowa
+						<span><i class="bi bi-braces"></i></span>
+					</h1>
+					<p>Dawid Kirzeniewski</p>
+				</div>
+				<div class="hero-img-black"></div>
+			</div>
+		</header>
+
+		<section>
+			<div class="container">
+				<h2>Formularz:</h2>
+
+				<div class="form-containter">
+					<form class="form">
+						<div class="name">
+							<label for=""> Imię: <input type="text" name="imie" placeholder="Wpisz imię" required /> </label>
+
+							<label for="">
+								Nazwisko: <input type="text" name="nazwisko" placeholder="Wpisz nazwisko" required />
+							</label>
+						</div>
+
+						<fieldset>
+							<legend>Płeć:</legend>
+
+							<div class="gender">
+								<label for=""> <input type="radio" name="plec" value="K" required /> Kobieta </label>
+
+								<label for=""> <input type="radio" name="plec" value="M" required /> Mężczyzna </label>
+							</div>
+						</fieldset>
+
+						<label for=""> Wiek: <input type="number" name="wiek" min="0" placeholder="Wpisz wiek" required /> </label>
+
+						<div class="form-btn">
+							<button type="submit">Zapisz</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<p>&copy; 2026 Autor: Dawid Kirzeniewski</p>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dane_osobowe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="dane_osobowe.xsd">
+  <osoba>
+    <imie>Dawid</imie>
+    <nazwisko>Kirzeniewski</nazwisko>
+    <plec>M</plec>
+    <wiek>23</wiek>
+  </osoba>
+</dane_osobowe>
