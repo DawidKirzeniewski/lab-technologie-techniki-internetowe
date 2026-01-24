@@ -26,9 +26,8 @@ Jakie są wspólne informacje wymienione w sekcji IP szczegółów PDU (PDU Deta
 Jakie są wspólne informacje wymienione w sekcji TCP szczegółów PDU (PDU Details) w porównaniu do informacji wymienionych w zakładce OSI Model? Z którą warstwą jest to związane? 
 - Wspólnymi informacjami są numery portów TCP – port źródłowy 1074 oraz port docelowy 80. Informacje te są związane z warstwą 4 modelu OSI (warstwa transportowa).
 
-Jaka jest wartość pola Host wymienionego w sekcji HTTP szczegółów PDU (PDU Details)? Z którą
-warstwą z zakładki OSI Model będzie ta informacja związana? 
-- ?
+Jaka jest wartość pola Host wymienionego w sekcji HTTP szczegółów PDU (PDU Details)? Z którą warstwą z zakładki OSI Model będzie ta informacja związana? 
+- Wartość pola Host odpowiada nazwie domenowej wpisanej w przeglądarce, czyli www.osi.local. Informacja ta jest związana z warstwą 7 modelu OSI (warstwa aplikacji).
 
 g. Kliknij następny kolorowy kwadrat w kolumnie Info na liście Event List. Tylko warstwa 1 jest aktywna (nie wyszarzona). Urządzenie przenosi ramkę z bufora i umieszcza ją w sieci.
 
