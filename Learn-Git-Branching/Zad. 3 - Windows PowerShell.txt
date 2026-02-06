@@ -1,40 +1,33 @@
-Windows PowerShell
-Copyright (C) Microsoft Corporation. All rights reserved.
+Dawid@DESKTOP-6N90PKN MINGW64 ~
+$ cd ~/Desktop
 
-Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop
+$ mkdir cwiczenia
 
-PS C:\Users\labor> cd ~/Desktop
-PS C:\Users\labor\Desktop> mkdir cwiczenia
-mkdir : An item with the specified name C:\Users\labor\Desktop\cwiczenia already exists.
-At line:1 char:1
-+ mkdir cwiczenia
-+ ~~~~~~~~~~~~~~~
-    + CategoryInfo          : ResourceExists: (C:\Users\labor\Desktop\cwiczenia:String) [New-Item],
-   IOException
-    + FullyQualifiedErrorId : DirectoryExist,Microsoft.PowerShell.Commands.NewItemCommand
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop
+$ cd cwiczenia
 
-PS C:\Users\labor\Desktop> cd cwiczenia
-PS C:\Users\labor\Desktop\cwiczenia> mkdir IO
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia
+$ mkdir IO
 
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia
+$ cd IO
 
-    Directory: C:\Users\labor\Desktop\cwiczenia
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO
+$ git init
+Initialized empty Git repository in C:/Users/Dawid/Desktop/cwiczenia/IO/.git/
 
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git config user.name Dawid Kirzeniewski
 
-Mode                 LastWriteTime         Length Name
-----                 -------------         ------ ----
-d-----        25.01.2026     18:09                IO
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git config user.email 78049@student-afm.edu.pl
 
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ nano main.cpp
 
-PS C:\Users\labor\Desktop\cwiczenia> cd IO
-PS C:\Users\labor\Desktop\cwiczenia\IO> git init
-Initialized empty Git repository in C:/Users/labor/Desktop/cwiczenia/IO/.git/
-PS C:\Users\labor\Desktop\cwiczenia\IO> git config user.name
-Łukasz Skotniczny
-PS C:\Users\labor\Desktop\cwiczenia\IO> git config user.email
-PS C:\Users\labor\Desktop\cwiczenia\IO> git config user.email
-PS C:\Users\labor\Desktop\cwiczenia\IO> git config user.email
-PS C:\Users\labor\Desktop\cwiczenia\IO> git config user.email
-PS C:\Users\labor\Desktop\cwiczenia\IO> git status
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
 On branch master
 
 No commits yet
@@ -42,12 +35,15 @@ No commits yet
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
         main.cpp
-        test.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
-PS C:\Users\labor\Desktop\cwiczenia\IO> git add main.cpp
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git add main.cpp
 warning: in the working copy of 'main.cpp', LF will be replaced by CRLF the next time Git touches it
-PS C:\Users\labor\Desktop\cwiczenia\IO> git status
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
 On branch master
 
 No commits yet
@@ -56,100 +52,108 @@ Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   main.cpp
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        test.txt
 
-PS C:\Users\labor\Desktop\cwiczenia\IO> git log
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git log
 fatal: your current branch 'master' does not have any commits yet
-PS C:\Users\labor\Desktop\cwiczenia\IO> git status
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git commit -m "Dodano plik main.cpp"
+[master (root-commit) c03f8b8] Dodano plik main.cpp
+ 1 file changed, 8 insertions(+)
+ create mode 100644 main.cpp
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git log
+commit c03f8b8221b3c6da63ec5ecfac2a3b95727a462a (HEAD -> master)
+Author: Dawid <78049@student-afm.edu.pl>
+Date:   Fri Feb 6 17:48:56 2026 +0100
+
+    Dodano plik main.cpp
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ nano main.cpp
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
 On branch master
-
-No commits yet
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   main.cpp
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        test.txt
-
-PS C:\Users\labor\Desktop\cwiczenia\IO> git status
-On branch master
-
-No commits yet
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   main.cpp
-
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   main.cpp
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        test.txt
+no changes added to commit (use "git add" and/or "git commit -a")
 
-PS C:\Users\labor\Desktop\cwiczenia\IO> git add main.cpp, git commit
-fatal: pathspec 'git' did not match any files
-PS C:\Users\labor\Desktop\cwiczenia\IO> git add main.cpp
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git add main.cpp
 warning: in the working copy of 'main.cpp', LF will be replaced by CRLF the next time Git touches it
-PS C:\Users\labor\Desktop\cwiczenia\IO> git commit
-[master (root-commit) 84a01e2] Wiadomosc:;
- Committer: Łukasz Skotniczny <labor@kswstghg.ksw.edu.pl>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly:
 
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git commit -m "Zmiana tekstu"
+[master 5e035d1] Zmiana tekstu
+ 1 file changed, 1 insertion(+), 1 deletion(-)
 
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 1 file changed, 8 insertions(+)
- create mode 100644 main.cpp
-PS C:\Users\labor\Desktop\cwiczenia\IO> git status
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
 On branch master
+nothing to commit, working tree clean
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ nano main.cpp
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git add .
+warning: in the working copy of 'main.cpp', LF will be replaced by CRLF the next time Git touches it
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   main.cpp
+
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ nano Struktura.cpp
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   main.cpp
+
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        test.txt
+        Struktura.cpp
 
-nothing added to commit but untracked files present (use "git add" to track)
-PS C:\Users\labor\Desktop\cwiczenia\IO> git add
-Nothing specified, nothing added.
-hint: Maybe you wanted to say 'git add .'?
-hint: Disable this message with "git config set advice.addEmptyPathspec false"
-PS C:\Users\labor\Desktop\cwiczenia\IO> git add .
-warning: in the working copy of 'main.cpp', LF will be replaced by CRLF the next time Git touches it
-PS C:\Users\labor\Desktop\cwiczenia\IO> git add
-Nothing specified, nothing added.
-hint: Maybe you wanted to say 'git add .'?
-hint: Disable this message with "git config set advice.addEmptyPathspec false"
-PS C:\Users\labor\Desktop\cwiczenia\IO> git add .
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git add Struktura.cpp
 warning: in the working copy of 'Struktura.cpp', LF will be replaced by CRLF the next time Git touches it
-PS C:\Users\labor\Desktop\cwiczenia\IO> git commit -m "test"
-[master 4e4b1ec] test
- Committer: Łukasz Skotniczny <labor@kswstghg.ksw.edu.pl>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly:
 
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 3 files changed, 11 insertions(+)
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git commit -m "Dodano strukturę Student"
+[master 848a964] Dodano strukturę Student
+ 2 files changed, 6 insertions(+)
  create mode 100644 Struktura.cpp
- create mode 100644 test.txt
-PS C:\Users\labor\Desktop\cwiczenia\IO> git status
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ rm Struktura.cpp
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
 On branch master
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
@@ -157,27 +161,17 @@ Changes not staged for commit:
         deleted:    Struktura.cpp
 
 no changes added to commit (use "git add" and/or "git commit -a")
-PS C:\Users\labor\Desktop\cwiczenia\IO> git add .
-PS C:\Users\labor\Desktop\cwiczenia\IO> git commit -m "usuniecie struktury"
-[master a3ad5aa] usuniecie struktury
- Committer: Łukasz Skotniczny <labor@kswstghg.ksw.edu.pl>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly:
 
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git add -u
 
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 1 file changed, 9 deletions(-)
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git commit -m "Usunięto plik Struktura.cpp"
+[master 87b19eb] Usunięto plik Struktura.cpp
+ 1 file changed, 5 deletions(-)
  delete mode 100644 Struktura.cpp
-PS C:\Users\labor\Desktop\cwiczenia\IO> git status
+
+Dawid@DESKTOP-6N90PKN MINGW64 ~/Desktop/cwiczenia/IO (master)
+$ git status
 On branch master
 nothing to commit, working tree clean
-PS C:\Users\labor\Desktop\cwiczenia\IO> ^C
-PS C:\Users\labor\Desktop\cwiczenia\IO> ^C
-PS C:\Users\labor\Desktop\cwiczenia\IO> git config --global user.name "Dawid Kirzeniewski"
-PS C:\Users\labor\Desktop\cwiczenia\IO> git config --global user.email "78049@student-afm.edu.pl"
